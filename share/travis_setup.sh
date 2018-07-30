@@ -1,9 +1,9 @@
 #!/bin/bash
 set -evx
 
-mkdir ~/.dashcore
+mkdir ~/.gentariumcore
 
 # safety check
-if [ ! -f ~/.dashcore/.dash.conf ]; then
-  cp share/dash.conf.example ~/.dashcore/dash.conf
+if [ ! -f ~/.gentariumcore/.gentarium.conf ]; then
+  cp share/gentarium.conf.example ~/.gentariumcore/gentarium.conf
 fi
